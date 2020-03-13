@@ -1,0 +1,209 @@
+body{
+	margin: 0px;
+	background-color: rgb(255, 255, 255);
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: lighter;	
+	display: block;
+}
+
+html, body {
+	height: 100%;
+}
+ 
+p {
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.54);
+}
+
+a {
+	color: rgba(0, 0, 0, 0.80);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	opacity: .80;
+}
+
+i {
+	font-size: 24px;
+	max-height: 32px;
+	color: #5F6368;
+	border-radius: 50px; 
+}
+
+.nav {
+	margin: 20px 0px;
+	padding: 0px 30px;
+	text-align: right;
+}
+
+#favicon:hover {
+	color: rgba(0,0,0,1);
+}
+
+.picture-profile {
+	max-height: 32px;
+	max-width: 32px;
+	border-radius: 50px;
+	margin: 0px 8px;
+}
+
+.picture-profile:hover {
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+.list-inline {
+	list-style: none;
+	line-height: 24px; 
+	outline: none;
+	vertical-align: middle;
+	margin: 0px 3px 0px 8px;
+	padding: 0px 5px;
+	padding-left: 30px;
+}
+
+.list-inline li{
+	display: inline-block;
+	line-height: 24px; 
+	outline: none;
+	vertical-align: middle;
+	padding: 0px 8px;
+}
+
+/* Center - Logo Google */
+
+#lga {
+	margin-top: 30px;
+	height: 233px;
+}
+
+#hp-google {
+	padding-top: 100px;
+	height: 92px;
+	width: 272px;
+}
+
+.gg-search {
+	display: block;	
+}
+
+/* search Bar */ 
+
+.search {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	position: relative;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	box-shadow: none;
+	height: 44px;
+	width: 582px;
+	margin: 0;
+	padding: 0;	
+	color: rgba(0,0,0,.87);
+	word-wrap: break-word;
+	outline: none;
+	margin-top: -16px;
+}
+
+.search:hover {
+	box-shadow: 1.2px 1.2px 1.2px 1.2px rgba(0, 0, 0, .15)
+}
+
+.fa-search, .fa-microphone {
+	color: #9AA0A6;
+	font-size: 24px;
+	padding-top: -44px;
+
+}
+
+#fa-search {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#fa-microphone {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#search-bar {
+	display: flex;
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	height: 44px;
+	width: 480px;
+	margin: 0;
+	color: rgba(0,0,0,.87);
+	word-wrap: break-word;
+	outline: none;
+}
+
+/* Button Search */
+
+.google-button-section {
+	width: 584px;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 6px;
+}
+
+.gg-btn {
+	position: absolute;
+	text-align: center;
+	width: 571px;
+	height: 88px;
+	padding-top: 18px;
+	z-index: 0;
+}
+
+.btn-left, .btn-right {
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-color: #f2f2f2;					
+	border: 1px solid #f2f2f2;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0,.15);
+	border-radius: 4px;
+	color: #5F6368;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	line-height: 27px;
+	height: 36px;
+	min-width: 54px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+}
+
+/* Hover effect */
+
+.btn-left:hover {
+	box-shadow: none;
+	border: 1px solid rgba(0, 0, 0, .40);
+	color: rgba(0, 0, 0, 0.88);
+}
+
+.btn-right:hover {
+	box-shadow: none;
+	border: 1px solid rgba(0, 0, 0,.40);
+	color: rgba(0, 0, 0, 0.88);
+}
+
+/* Footer Design */
+
+.footer-bar {
+	background-color: rgb(242, 242, 242)
+}
+
+.footer-bar-1 {
+	margin: 150px 0px 0px 30px;
+	padding: 10px 0px 0px 15px;
+}
