@@ -199,11 +199,17 @@ i {
 
 /* Footer Design */
 
-.footer-bar {
-	background-color: rgb(242, 242, 242)
+#footer {
+	bottom: 0;
+	font-size: 10pt;
+	height: 70px;
+	position: fixed;
+	width: 100%;
+	background-color: rgb(242, 242, 242);
+	margin: 0;
+	padding: 10px 0px 0px 27px;
+	border-top: 1px solid rgba(0,0,0,.1);
 }
 
-.footer-bar-1 {
-	margin: 150px 0px 0px 30px;
-	padding: 10px 0px 0px 15px;
-}
+
+
