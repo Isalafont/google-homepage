@@ -1,5 +1,6 @@
 # google-homepage
-The Odin Project, Mini project. Building a google homepage, easy version
+The Odin Project, Web Development 101 / The Front End. 
+Building a google homepage, easy version
 
 # Introduction
 
